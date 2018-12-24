@@ -1,4 +1,4 @@
-module routing
+module github.com/unprofession-al/routing
 
 require (
 	github.com/gorilla/context v1.1.1 // indirect
