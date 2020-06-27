@@ -14,7 +14,7 @@ const tplString = `<div class="{{ .Class }}"><table>
 		<th>Description</th>
 		<th>Query Parameters</th>
 	</tr>
-{{ range $e := .Endpoints }}
+{{ range $e := .Routes }}
 	<tr>
 		<td>{{ $e.Path }}</td>
 		<td>{{ $e.Method }}</td>
